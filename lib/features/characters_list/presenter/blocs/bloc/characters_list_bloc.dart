@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:rick_and_morty_app/features/home_screen/domain/entities/character_entity.dart';
-import 'package:rick_and_morty_app/features/home_screen/domain/repository/character_repository.dart';
+import 'package:rick_and_morty_app/features/characters_list/domain/entities/character_entity.dart';
+import 'package:rick_and_morty_app/features/characters_list/domain/repository/character_repository.dart';
 
 part 'characters_list_event.dart';
 part 'characters_list_state.dart';

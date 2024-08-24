@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:oxidized/src/result.dart';
-import 'package:rick_and_morty_app/features/home_screen/data/models/character_model.dart';
-import 'package:rick_and_morty_app/features/home_screen/domain/repository/character_repository.dart';
+import 'package:rick_and_morty_app/features/characters_list/data/models/character_model.dart';
+import 'package:rick_and_morty_app/features/characters_list/domain/repository/character_repository.dart';
 import 'package:rick_and_morty_app/shared/models/failure.dart';
 import 'package:http/http.dart' as http;
 
