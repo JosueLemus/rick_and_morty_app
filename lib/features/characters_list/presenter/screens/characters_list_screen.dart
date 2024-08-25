@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:rick_and_morty_app/features/characters_list/data/api/character_api.dart';
-import 'package:rick_and_morty_app/features/characters_list/presenter/blocs/bloc/characters_list_bloc.dart';
+import 'package:rick_and_morty_app/features/characters_list/presenter/blocs/character_list/characters_list_bloc.dart';
 
 class CharactersListScreen extends StatelessWidget {
   const CharactersListScreen({super.key});

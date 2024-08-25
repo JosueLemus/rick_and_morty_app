@@ -33,10 +33,3 @@ class CharacterApi extends CharacterRepository {
     }
   }
 }
-
-//  if (response.statusCode == 200) {
-//       List jsonResponse = json.decode(response.body);
-//       return jsonResponse.map((item) => Item.fromJson(item)).toList();
-//     } else {
-//       throw Exception('Failed to load items');
-//     }
